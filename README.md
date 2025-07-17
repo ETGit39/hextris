@@ -83,7 +83,7 @@ make check-tools #Verify all required CLI tools are installed.
 
 ## Docker Image
 
-We created a lightweight docker image to serve Hextris using NGINX
+We created a lightweight and multi-architecture (supports arm64 and amd64) docker image to serve Hextris using NGINX
 
 ```bash
 FROM nginx:1.25-alpine
