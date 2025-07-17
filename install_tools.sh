@@ -59,7 +59,7 @@ install_kind() {
 
 check_docker() {
   if ! command -v docker &>/dev/null; then
-    echo "⚠️ Docker is not installed or not in PATH."
+    echo "Docker is not installed or not in PATH."
     echo "Please install Docker manually from:"
     echo "https://docs.docker.com/get-docker/"
     exit 1
