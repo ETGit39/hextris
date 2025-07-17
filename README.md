@@ -45,6 +45,11 @@ chmod +x install_tools.sh && bash install_tools.sh
 
 ## Usage
 
+**Clone the repo**
+
+git clone https://github.com/ETGit39/hextris.git
+cd hextris
+
 **Start the cluster and deploy Hextris**
 
 ```bash
